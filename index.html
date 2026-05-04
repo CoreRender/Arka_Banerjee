@@ -4,46 +4,61 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Arka Banerjee</title>
-
-  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Cursor -->
-  <div class="cursor"></div>
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="logo">Arka Banerjee</div>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#">Learning</a></li>
+  </ul>
+</nav>
 
-  <!-- Popup -->
-  <div class="popup" id="popup">
-    <div class="popup-box">
-      <h2>Welcome 👋</h2>
-      <button onclick="closePopup()">Enter</button>
-    </div>
+<!-- Hero -->
+<section class="hero">
+  <h1>Hi, I'm Arka Banerjee</h1>
+  <p class="typing">Web Builder</p>
+  <button onclick="scrollToAbout()">About Me</button>
+</section>
+
+<!-- About -->
+<section id="about" class="about">
+  <h3>ABOUT ME</h3>
+  <h2>Building experiences.</h2>
+
+  <div class="glass-card">
+    <p>
+      I'm Arka Banerjee, a 16-year-old developer who enjoys building interactive
+      websites and exploring new technologies. I spend most of my time on my PC,
+      experimenting with creative designs and gaming.
+    </p>
+
+    <p>
+      I like turning ideas into real projects and constantly improving my skills
+      in web development.
+    </p>
+
+    <p>— Written by Arka ❤️</p>
   </div>
+</section>
 
-  <!-- Hero -->
-  <section class="hero">
-    <h1>Hi, I'm Arka Banerjee</h1>
-    <p>16-year-old Developer | Gamer</p>
-  </section>
+<!-- Skills -->
+<section id="skills" class="skills-section">
+  <h3>WHAT I WORK WITH</h3>
 
-  <!-- About -->
-  <section class="glass">
-    <h2>About Me</h2>
-    <p>I enjoy coding, building websites and gaming.</p>
-  </section>
+  <div class="skills">
+    <div class="card java">Java</div>
+    <div class="card js">JavaScript</div>
+    <div class="card html">HTML</div>
+    <div class="card web">Web Developer</div>
+  </div>
+</section>
 
-  <!-- Skills -->
-  <section class="glass">
-    <h2>Skills</h2>
-    <div class="skills">
-      <div class="skill">HTML</div>
-      <div class="skill">CSS</div>
-      <div class="skill">JavaScript</div>
-    </div>
-  </section>
-
-  <!-- JS -->
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
